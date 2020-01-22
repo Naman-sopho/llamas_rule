@@ -1,27 +1,31 @@
 <head>
     <!-- Bootstrap 4 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="js/main.js"></script>
 
 <body>
     <div class="d-flex" id="wrapper">
-        <div class="bg-light border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading">Heading </div>
+        <div class="sidebar border-right" id="sidebar-wrapper">
+            <div class="sidebar-heading">SidebarHeading</div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light">Lorem</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Ipsum</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Dolor</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Sit</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Amet</a>
+                <a href="#lorem" class="scroll-link list-group-item list-group-item-action">Lorem</a>
+                <a href="#ipsum" class="scroll-link list-group-item list-group-item-action ">Ipsum</a>
+                <a href="#" class="list-group-item list-group-item-action ">Dolor</a>
+                <a href="#" class="list-group-item list-group-item-action ">Sit</a>
+                <a href="#" class="list-group-item list-group-item-action ">Amet</a>
             </div>
         </div>
         <div id="page-content">
-            <nav class="navbar navbar-expand-lg border-bottom fixed-top">
-                <button class="btn btn-primary" id="menu-toggle">Toggle</button>
+            <nav class="navbar navbar-expand-md border-bottom">
+                <button class="btn btn-outline" id="menu-toggle">
+                    <i class="fa fa-bars"></i>
+                </button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
                     aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -38,8 +42,26 @@
                     </ul>
                 </div>
             </nav>
+
+            <div class="lorem-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 text">lorem</div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="ipsum-container">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 offset-md-2 text">ipsum</div>
+
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div>
 </body>
 
 <script>
