@@ -19,4 +19,12 @@ $(document).ready(function () {
 
     // Initialise WoW
     new WOW().init();
+
+    $('.top').backstretch("images/llama-top-bg.jpg");
+    $('.facts-container').backstretch("images/llama-top-bg.jpg");
+
+    // crousel
+    $('a[data-toggle="tab"]').on('shown.bs.tab', function () {
+        $('.facts-container').backstretch("resize");
+    });
 });

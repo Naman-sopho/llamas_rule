@@ -9,12 +9,14 @@
 </head>
 
 <!-- JavaScript -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="js/wow.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+
 <script src="js/main.js"></script>
 
 <body>
-    <div class="d-flex" id="wrapper">
+    <div id="wrapper">
         <div id="page-content">
             <!-- Navbar -->
             <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
@@ -44,7 +46,8 @@
             <div class="top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-8 offset-md-2 text">
+                        <div class="col-md-6"></div>
+                        <div class="col-md-6 text">
                             <h1 class="wow fadeInLeftBig">Lorem Ipsum</h1>
                             <div class="description wow fadeInLeftBig">
                                 <p>
@@ -56,7 +59,7 @@
                             </div>
                             <div class="top-link wow fadeInUp">
                                 <a class="btn btn-primary btn-link-1" href="#">Foo</a>
-                                <a class="btn btn-primary btn-link-2 scroll-link" href="#">Bar</a>
+                                <a class="btn btn-primary btn-link-1 scroll-link" href="#">Bar</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +77,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-4 second-box wow fadeInUp">
+                        <div class="col-md-5 second-box wow fadeInUp">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="second-box-icon">
@@ -89,7 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 second-box wow fadeInDown">
+                        <div class="col-md-5 second-box wow fadeInDown">
                             <div class="row">
                                 <div class="col-md-4">
                                     <div class="second-box-icon">
@@ -104,24 +107,308 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 second-box wow fadeInUp">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <div class="second-box-icon">
-                                        <i class="fab fa-google"></i>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Facts -->
+            <div class="facts-container section-container section-container-image-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col facts section-description wow fadeIn"></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 offset-md-1 fact-list wow fadeInUp">
+
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="tab1" role="tabpanel"
+                                    aria-labelledby="tab1-tab">
+                                    <div class="fact-image">
+                                        <img src="../images/facts/1.jpg" alt="fact-1" data-at2x="../images/facts/1.jpg">
+                                    </div>
+                                    <div class="fact-text">
+                                        <p>
+                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et.
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et.
+                                            Lorem ipsum dolor sit amet."<br>
+                                            <a href="#">Lorem Ipsum, dolor.co.uk</a>
+                                        </p>
                                     </div>
                                 </div>
-                                <div class="col-md-8">
-                                    <h3>Dolor Sit Amet</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut
-                                        labore et.</p>
+                                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                                    <div class="fact-image">
+                                        <img src="../images/facts/2.jpg" alt="fact-2" data-at2x="../images/facts/2.jpg">
+                                    </div>
+                                    <div class="fact-text">
+                                        <p>
+                                            "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis
+                                            nisl ut aliquip
+                                            ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                                            tation
+                                            ullamcorper suscipit
+                                            lobortis nisl ut aliquip."<br>
+                                            <a href="#">Minim Veniam, nostrud.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                                    <div class="fact-image">
+                                        <img src="../images/facts/3.jpg" alt="fact-3" data-at2x="../images/facts/3.jpg">
+                                    </div>
+                                    <div class="fact-text">
+                                        <p>
+                                            "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et.
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et.
+                                            Lorem ipsum dolor sit amet."<br>
+                                            <a href="#">Lorem Ipsum, dolor.co.uk</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                                    <div class="fact-image">
+                                        <img src="../images/facts/4.jpg" alt="" data-at2x="../images/facts/4.jpg">
+                                    </div>
+                                    <div class="fact-text">
+                                        <p>
+                                            "Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                                            suscipit lobortis
+                                            nisl ut aliquip
+                                            ex ea commodo consequat. Ut wisi enim ad minim veniam, quis nostrud exerci
+                                            tation
+                                            ullamcorper suscipit
+                                            lobortis nisl ut aliquip."<br>
+                                            <a href="#">Minim Veniam, nostrud.com</a>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
+
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab"
+                                        aria-controls="tab1" aria-selected="true"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab"
+                                        aria-controls="tab2" aria-selected="false"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab"
+                                        aria-controls="tab3" aria-selected="false"></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tab4-tab" data-toggle="tab" href="#tab4" role="tab"
+                                        aria-controls="tab4" aria-selected="false"></a>
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- Tech -->
+            <div class="tech-container section-container">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col tech section-description wow fadeIn">
+                            <h2>Libs Used</h2>
+                            <div class="divider-1 wow fadeInUp"><span></span></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 tech-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tech-box-icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3>Ut wisi enim ad minim</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                        Ut wisi enim ad minim veniam, quis nostrud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 tech-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tech-box-icon">
+                                        <i class="fas fa-pencil-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3>Sed do eiusmod tempor</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                        Ut wisi enim ad minim veniam, quis nostrud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 tech-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tech-box-icon">
+                                        <i class="fas fa-cloud"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3>Quis nostrud exerci tat</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                        Ut wisi enim ad minim veniam, quis nostrud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 tech-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="tech-box-icon">
+                                        <i class="fab fa-pinterest"></i>
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3>Minim veniam quis nostrud</h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                        Ut wisi enim ad minim veniam, quis nostrud.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="portfolio-container section-container">
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col portfolio section-description wow fadeIn">
+                            <h2>Portfolio</h2>
+                            <div class="divider-1 wow fadeInUp"><span></span></div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 portfolio-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="portfolio-box-image">
+                                        <img src="images/portfolio/1.jpg" alt="" data-at2x="images/portfolio/1.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3><a href="#">Ut wisi enim ad minim</a> <i class="fas fa-angle-right"></i></h3>
+                                    <div class="portfolio-box-date"><i class="far fa-calendar"></i> 17 September 2018
+                                    </div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 portfolio-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="portfolio-box-image">
+                                        <img src="images/portfolio/2.jpg" alt="" data-at2x="images/portfolio/2.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3><a href="#">Sed do eiusmod tempor</a> <i class="fas fa-angle-right"></i></h3>
+                                    <div class="portfolio-box-date"><i class="far fa-calendar"></i> 13 August 2018</div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 portfolio-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="portfolio-box-image">
+                                        <img src="images/portfolio/3.jpg" alt="" data-at2x="images/portfolio/3.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3><a href="#">Quis nostrud exerci tat</a> <i class="fas fa-angle-right"></i></h3>
+                                    <div class="portfolio-box-date"><i class="far fa-calendar"></i> 26 July 2018</div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 portfolio-box wow fadeInLeft">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="portfolio-box-image">
+                                        <img src="images/portfolio/4.jpg" alt="" data-at2x="images/portfolio/4.jpg">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <h3><a href="#">Minim veniam quis nostrud</a> <i class="fas fa-angle-right"></i>
+                                    </h3>
+                                    <div class="portfolio-box-date"><i class="far fa-calendar"></i> 09 June 2018</div>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                        incididunt
+                                        ut labore et.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col section-bottom-button wow fadeInUp">
+                            <a class="btn btn-primary btn-link-2" href="#">Link to CV</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
