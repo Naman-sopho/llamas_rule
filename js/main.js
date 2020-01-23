@@ -22,9 +22,9 @@ $(document).ready(function () {
     $('.facts-container').backstretch("images/llama-top-bg.jpg");
 
     // carousel
-
+    $('#myTab').tab('show');
     $('.nav-tabs a').click(function () {
-        $(this).tab('show');
+        $('#myTab').tab('show');
     });
 
     $('a[data-toggle="tab"]').on('shown.bs.tab', function () {
