@@ -15,4 +15,8 @@ $(document).ready(function () {
         e.preventDefault();
         scroll_to($(this), $('nav').outerHeight());
     });
+
+
+    // Initialise WoW
+    new WOW().init();
 });
