@@ -92,6 +92,10 @@ img {
 }
 
 /** Common **/
+.wow {
+   visibility: hidden;
+}
+
 .section-container {
     margin: 0 auto;
     padding-bottom: 80px;
@@ -174,6 +178,12 @@ img {
 	outline: 0;
 	color: #9b59b6;
 	box-shadow: none;
+}
+
+.divider-1 span {
+	display: inline-block;
+	width: 200px;
+	border-bottom: 1px dashed #ccc;
 }
 
 /** Top **/
@@ -339,7 +349,6 @@ img {
 
 .portfolio-box-image {
 	margin-top: 8px;
-	overflow: hidden;
 	border-radius: 4px;
 }
 
