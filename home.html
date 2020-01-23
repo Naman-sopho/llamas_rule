@@ -3,63 +3,41 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
+<!-- JavaScript -->
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/main.js"></script>
 
 <body>
     <div class="d-flex" id="wrapper">
-        <div class="sidebar border-right" id="sidebar-wrapper">
-            <div class="sidebar-heading">SidebarHeading</div>
-            <div class="list-group list-group-flush">
-                <a href="#lorem" class="scroll-link list-group-item list-group-item-action">Lorem</a>
-                <a href="#ipsum" class="scroll-link list-group-item list-group-item-action ">Ipsum</a>
-                <a href="#" class="list-group-item list-group-item-action ">Dolor</a>
-                <a href="#" class="list-group-item list-group-item-action ">Sit</a>
-                <a href="#" class="list-group-item list-group-item-action ">Amet</a>
-            </div>
-        </div>
         <div id="page-content">
-            <nav class="navbar navbar-expand-md border-bottom">
-                <button class="btn btn-outline" id="menu-toggle">
-                    <i class="fa fa-bars"></i>
-                </button>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarContent">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Lorem <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Ipsum</a>
-                        </li>
-                    </ul>
+            <nav class="navbar navbar-dark fixed-top navbar-expand-md navbar-no-bg">
+                <div class="container">
+                    <a class="navbar-brand" href="home.html"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#top-content">Lorem</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#services">Ipsum</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link scroll-link" href="#about-us">Dolor</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
-
-            <div class="lorem-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2 text">lorem</div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div class="ipsum-container">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 offset-md-2 text">ipsum</div>
-
-                    </div>
-                </div>
-            </div>
 
         </div>
 </body>
