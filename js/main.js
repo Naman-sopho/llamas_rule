@@ -34,7 +34,3 @@ $(document).ready(function () {
     // Initialise WoW
     new WOW().init();
 });
-
-jQuery(window).on("load", function () {
-    $(".fact-image img").attr("style", "width: auto !important; height: auto !important;");
-});
