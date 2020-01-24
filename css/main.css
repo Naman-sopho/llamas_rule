@@ -407,7 +407,7 @@ iframe {
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
-	.second-box .second-box-icon { width: 60px; height: 60px; font-size: 32px; line-height: 60px; border-radius: 22px; }
+	.second-box .second-box-icon { font-size: 32px; line-height: 60px; border-radius: 22px; }
 	
 }
 
@@ -418,11 +418,7 @@ iframe {
 	.top-content { padding: 180px 0; }
 
 	.section-description p { padding: 0; }
-	
-	.second-box .second-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; border-radius: 18px; }
-	
-	.tech-box .tech-box-icon { width: 50px; height: 50px; font-size: 26px; line-height: 50px; border-radius: 18px; }
-	
+		
 	.facts-box h3:hover i { padding-left: 10px; }
 	
 	.portfolio-box h3:hover i { padding-left: 10px; }
@@ -450,10 +446,10 @@ iframe {
 	.tech-box h3 { margin-top: 20px; padding-top: 10px; }
 	
 	.facts-box { text-align: center; }
-	.facts-box-image { max-width: 540px; margin: 0 auto; }
+	.facts-box-image { margin: 0 auto; }
 	
 	.portfolio-box { text-align: center; }
-	.portfolio-box-image { max-width: 540px; margin: 0 auto; }
+	.portfolio-box-image { margin: 0 auto; }
 	.portfolio-box h3 { margin-top: 30px; }
 	
 }
