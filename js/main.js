@@ -18,8 +18,8 @@ $(document).ready(function () {
         scroll_to($(this), $('nav').outerHeight());
     });
 
-    $('.top').backstretch("images/llama-top-bg.jpg");
-    $('.facts-container').backstretch("images/llama-top-bg.jpg");
+    $('.top').backstretch("images/rsz_llama-bg.jpg");
+    $('.facts-container').backstretch("images/llama-dusk.png");
 
     // carousel
     $('#myTab').tab('show');
